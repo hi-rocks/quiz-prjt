@@ -1,3 +1,8 @@
+@media screen and (max-width: 600px){
+    img{
+        display: none;
+    }
+}
 body
 {
     font-family: 'Roboto Slab', serif;
