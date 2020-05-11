@@ -1,0 +1,92 @@
+body
+{
+    font-family: 'Roboto Slab', serif;
+    background-color:#00a1ab;
+}
+.container
+{
+    height: 450px;
+    width: 1020px;
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    background-color:#c3edea;
+    border: 1px solid blue;
+    box-shadow: 0 0 8px 3px #fff;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.title
+{
+
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: indigo;
+    text-shadow: lightcoral 2px 5px;
+}
+.question
+{
+    padding: 20px;
+    font-size: 28px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 20px 0px 10px 0px;
+}   
+
+.option
+{
+    color:black;
+    width: 470px;
+    display: inline-block;
+    padding:10px 0px 10px 15px;
+    margin: 10px 0px 10px 10px;
+    background-color:#A4C5C6 ;
+    border-radius: 25px;
+}
+
+.option:hover
+{
+    background-color: blue;
+    color: #f6f6f6;
+}
+
+
+.next-btn
+{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background-color:#e6739f;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    cursor:pointer ;
+    
+}
+.next-btn:hover
+{
+    background-color:rgb(227, 135, 250);
+    color: crimson;
+}
+
+.result
+{
+    height: 100px;
+    text-align: center;
+    font-size:150px; 
+
+}
+
+.option input:checked.option
+{
+    background: #08038C;
+	color: #000;
+}

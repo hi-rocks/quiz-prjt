@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+<style>
+  body{
+    text-align: center;
+    position: relative;
+    background-color: deepskyblue;
+  }
+div{
+  height: 300px;
+    width: 700px;
+    position: absolute;
+    padding: 20px;
+    top: 20%;
+    left: 50%;
+    background-color:#a4c5c6;
+    border: 1px solid blue;
+    box-shadow: 0 0 8px 3px black;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 300px;
+}
+   h1{
+    font-family: 'Oswald', sans-serif;
+    color: darkviolet;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 2px 4px palevioletred;
+   }
+   .row
+   {
+     font-size: 20px;
+     font-family: 'Libre Franklin', sans-serif;
+     font-weight: bold;
+    color: #162447;
+     margin: 10px 0 10px 15px;
+     text-align: center;
+   }
+   
+.submit-btn
+{
+  text-align: center;
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+  color: #FFFFFF ;
+  font-size: 15px;
+  border-radius: 10px;
+  background: #0059A0;
+  box-shadow: black;
+  
+}
+.next-btn
+   {
+    float: right;
+    width: 70px;
+    height: 20px;
+    background-color:#e6739f;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    cursor:pointer ;
+    padding: 5px 5px 10px 5px;
+   }
+</style>
+<script>
+function button()
+{
+  alert("Submition successfull!");
+  
+}
+</script>
+
+
+</head>
+<body>
+  <div>
+    <h1>PERSONAL INFORMATION</h1>
+ <table>
+   <tr class="row">
+     <td>Full Name:</td>
+     <td><input type="text" placeholder="Name"></td>
+   </tr>
+
+   <tr class="row">
+     <td>Age:</td>
+     <td><input type="text" placeholder="Age"></td>
+   </tr>
+
+   <tr class="row">
+    <td>Gender:</td>
+    <td><input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female</td>  
+  </tr>
+
+  <tr class="row">
+    <td>Email Id:</td>
+    <td><input type="text" placeholder="hiams@gmail.com"></td>
+  </tr>
+ </table>
+ <input class="submit-btn" type="submit"onclick=button();>
+ <a  class="next-btn" href="index2.html">Next</a>
+ </div>
+
+ </body>
+</html>

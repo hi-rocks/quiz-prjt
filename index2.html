@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="quizcontainer" class="container">
+        <div class="title">Computer Quiz</div>
+        <div id="question" class="question"></div>
+        <label class="option"><input type="radio" name="option" value="1"> <span id="opt1"></span></label>
+        <label class="option"><input type="radio" name="option" value="2"> <span id="opt2"></span></label>
+        <label class="option"><input type="radio" name="option" value="3"> <span id="opt3"></span></label>
+        <label class="option"><input type="radio" name="option" value="4"> <span id="opt4"></span></label>
+    
+    
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next</button>
+    </div>
+    <div id="result" class="conatiner result" style="display: none;"></div>
+
+    
+   <script src="question.js"></script>
+   <script src="quiz-script.js"></script>
+
+
+</body>
+</html>
